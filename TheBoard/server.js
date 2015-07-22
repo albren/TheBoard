@@ -8,7 +8,8 @@ var app = express();
 app.set("view engine", "jade");
 
 app.get("/", function (req, res) {
-    res.send("<html><body><h1>Express</h1></body></html>");
+    //res.send("<html><body><h1>Express</h1></body></html>");
+    res.render("jade/index", { title: "Express + Jade"});
 });
 
 http.createServer(app).listen(port);
