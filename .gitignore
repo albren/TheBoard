@@ -33,3 +33,4 @@ typings
 content/sass/shared/*
 !content/sass/shared/README.md
 TheBoard/.ntvs_analysis.dat
+TheBoard/.ntvs_analysis.dat.tmp
