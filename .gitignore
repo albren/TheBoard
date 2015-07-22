@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+
+pids
+*.pid
+*.seed
+
+coverage
+.grunt
+build/Release
+node_modules
+.lock-wscript
+.DS_Store
+vendor/bower
+coverage.zip
+package
+
+.vagrant
+#bundles
+content/js/*.js
+
+#auto generated file by "grunt ui-di-installer" task
+ui/di-installer.js
+
+.settings
+typings
+.idea
+.tern_port
+
+#styles
+*.css
+content/sass/shared/*
+!content/sass/shared/README.md
